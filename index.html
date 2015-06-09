@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>RockoX</title>
+    <title>JM Technology Indonesia</title>
 
     <!-- theme -->
     <link href="css/rockox.css" rel="stylesheet">
+    <link href="css/rockox-main.css" rel="stylesheet">
     
 	<!-- animation -->
     <link href="css/animate.css" rel="stylesheet">
+	
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	
     
     <!-- piecharts -->
     <link rel="stylesheet" href="css/pie-charts-style.css">
@@ -23,6 +27,16 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     
+    
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/revolution_style.css" media="screen" />		
+	
+	
+		
+		
+	<!-- REVOLUTION BANNER CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,19 +46,29 @@
   </head>
   <body class="fixed-header" data-spy="scroll" data-target=".navbar">
   	
-    
-    <div class="switcher">
-    	<a href="index-dark.html" title="Dark Theme"><i class="fa fa-adjust"></i></a>
-    </div>
-    
-    
-    <div id="wrapper">
     <!-- BEGIN HEADER -->
-    <header id="home">
+         
+   <header id="home">
+		
+  		<!--<div class="top-bar">
+        	<div class="container">
+            	<span><i class="fa fa-mobile"></i> + 386 40 111 5555 </span>
+        		<div class="social">
+                  	<a href="#." class="tw"><i class="fa fa-twitter"></i></a>
+                    <a href="#." class="fb"><i class="fa fa-facebook"></i></a>
+                    <a href="#." class="yt"><i class="fa fa-youtube"></i></a>
+                    <a href="#." class="ig"><i class="fa fa-instagram"></i></a>
+                    <a href="#." class="db"><i class="fa fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>	-->
+    
 	    <nav class="navbar navbar-default" role="navigation">
+		
           <div class="container">
+		  
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+          <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -52,235 +76,715 @@
                 <span class="icon-bar"></span>
               </button>
               <!-- BEGIN LOGO -->
-              <a class="navbar-brand" href="#home"><img src="images/logo.png" alt=""></a>
+				<a class="navbar-brand" href="#home"><img src="images/head_m_01.png" alt=""></a>
               <!-- END LOGO -->
-            </div>
+           </div>
         
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             	<!-- BEGIN NAVIGATION -->
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">PRODUCT & SERVICE</a></li>
-                    <li><a href="#heading">services</a></li>
-                    <li><a href="#experience">experience</a></li>
-                    <li><a href="#team">our team</a></li>
-                    <li><a href="#pricing-tables">pricing</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
+                 <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+					<li><a href="#productsandservices">Products and Services</a></li>
+                    <li><a href="#newsslider">news</a></li>
+                    <li><a href="#companyprofile">Company Profile</a></li>
+                    <li><a href="#recruitment">Recruitment</a></li>
+                   
+                  <!--   <li><a href="#portfolio">portfolio</a></li>
                     <li><a href="#best-sellers">shop</a></li>
-                    <li><a href="#contact-us">contact us</a></li>
-                  </ul>
+                    <li><a href="#contact-us">contact us</a></li>-->
+                 </ul>
             	<!-- END NAVIGATION -->
             </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-    </nav>
+        </div><!-- /.container-fluid -->
+     </nav>
     </header>
     <!-- END HEADER -->
+	
+	
     <!-- BEGIN BANNER -->
-    <section data-stellar-background-ratio="0.3" class="parallax-main-banner">
-            <div id="heading">
-            <!-- BEGIN CAROUSEL -->
-            <div id="mycarousel" class="jcarousel-skin-tango">
-                <ul>
-                    <li>
-                        <h1>love colors</h1>
-                        <div class="clearfix"></div>
-                        <h2>Parallax and Responsive Template</h2>
-                    </li>
-                    <li>
-                        <h1>i love colors</h1>
-                        <div class="clearfix"></div>
-                        <h2>Parallax and Responsive Template</h2>
-                    </li>
-                    <li>
-                        <h1>you love colors</h1>
-                        <div class="clearfix"></div>
-                        <h2>Parallax and Responsive Template</h2>
-                    </li>
-                    <li>
-                        <h1>they love colors</h1>
-                        <div class="clearfix"></div>
-                        <h2>Parallax and Responsive Template</h2>
-                    </li>
-                    <li>
-                        <h1>we love colors</h1>
-                        <div class="clearfix"></div>
-                        <h2>Parallax and Responsive Template</h2>
-                    </li>
-                </ul>
-            </div>
-            <!-- /END CAROUSEL -->
-        	</div>
-            <!-- BEGIN TABS BTN -->
-            <div class="tabs-btn green">
-                <div class="container">
-                    <ul>
-                        <li><a href="#heading" id="tab-btn1" class="active"><i class="fa fa-desktop"></i><p><span>Websites</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p></a></li>
-                        <li><a href="#heading" id="tab-btn2"><i class="fa fa-html5"></i><p><span>Latest Trends</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p></a></li>
-                        <li><a href="#heading" id="tab-btn3"><i class="fa fa-users"></i><p><span>Social Networks</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p></a></li>
-                        <li><a href="#heading" id="tab-btn4"><i class="fa fa-laptop"></i><p><span>Mobile Apps</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p></a></li>
-                        <li><a href="#heading" id="tab-btn5"><i class="fa fa-cloud"></i><p><span>Cloud Hosting </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p></a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- /END TABS BTN -->
-      </section>
+    <div class="fullwidthbanner-container">					
+        <div class="fullwidthbanner">
+            <ul>	
+                <!-- FADE -->
+                <li data-transition="fade" data-slotamount="10"> 										
+                    <img src="images/slides/thumb1.jpg" alt="" />									
+                    <div class="caption lfr" data-x="820" data-y="70" data-speed="1200" data-start="1300" data-easing="easeOutBack"><img src="images/slides/women.png" alt="" /></div>
+                    <div class="caption lfb" data-x="570" data-y="0" data-speed="19000" data-start="3400" data-easing="easeOutBack"><img src="images/slides/para-large.png" alt="" /></div>
+                    <div class="caption lfb" data-x="430" data-y="450" data-speed="12200" data-start="3400" data-easing="easeOutBack"><img src="images/slides/para-small.png" alt="" /></div>
+                    <div class="caption lft very_large_text" data-x="30" data-y="220" data-speed="1800" data-start="2000" data-easing="easeOutExpo">it infra services</div>	
+                    <div class="caption lft very_large_text2" data-x="215" data-y="220" data-speed="1800" data-start="2000" data-easing="easeOutExpo"></div>	
+                    <div class="caption lfl medium_grey" data-x="30" data-y="305" data-speed="300" data-start="2500" data-easing="easeOutExpo">Quisque ultricies vestibulum Graphic t river molestie </div>
+                    <div class="caption lfb small_text" data-x="30" data-y="328" data-speed="1800" data-start="2600" data-easing="easeOutExpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor,<br/> vel interdum mi sapien ut justo.Nulla varius consequat magna</div>
+                    <div class="caption sfb" data-x="30" data-y="375" data-speed="1800" data-start="3400" data-easing="easeOutBack"><a href="index.html" target="_blank" class="button red small">READ MORE</a></div>
+                </li>
+                <!-- FADE -->
+                <li data-transition="fade" data-slotamount="10"> 										
+                    <img src="images/slides/thumb2.jpg" alt="" />
+                    <div class="caption lfl" data-x="870" data-y="60" data-speed="20999" data-start="3000" data-easing="easeOutBack"><img src="images/slides/color-large-para.png" alt="" /></div>
+                    <div class="caption lfr" data-x="430" data-y="450" data-speed="20999" data-start="3000" data-easing="easeOutBack"><img src="images/slides/color-small-para.png" alt="" /></div>
+                    <div class="caption lft very_large_text3" data-x="385" data-y="220" data-speed="1200" data-start="1500" data-easing="easeOutExpo">WE ARE colorful</div>	
+                    <div class="caption lfl medium_grey2" data-x="230" data-y="305" data-speed="0" data-start="2500" data-easing="easeOutExpo">Quisque ultricies vestibulum Graphic or river molestie ultricies vestibulum Graphic </div>
+          <div class="caption sfb" data-x="520" data-y="340" data-speed="1200" data-start="2000" data-easing="easeOutBack"><a href="index.html" target="_blank" class="button blue small">READ MORE</a></div>
+                </li>
+                <!-- FADE -->
+                <li data-transition="fade" data-slotamount="10"> 										
+                    <img src="images/slides/thumb3.jpg" alt="" />
+                    <div class="caption lfb" data-x="820" data-y="110" data-speed="1500" data-start="1300" data-easing="easeOutBack"><img src="images/slides/tablet.png" alt="" /></div>
+                    <div class="caption lft very_large_text4" data-x="30" data-y="215" data-speed="1800" data-start="2000" data-easing="easeOutExpo">WE ARE</div>	
+                    <div class="caption lft very_large_text5" data-x="230" data-y="220" data-speed="1800" data-start="2000" data-easing="easeOutExpo">colorful</div>	
+                    <div class="caption lfl medium_grey2" data-x="30" data-y="305" data-speed="300" data-start="2500" data-easing="easeOutExpo">Quisque ultricies vestibulum Graphic t river molestie </div>
+                    <div class="caption lfb small_text2" data-x="30" data-y="328" data-speed="1800" data-start="2600" data-easing="easeOutExpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus orci ipsum,<br/> gravida tortor vel interdum mi sapien ut justo.Nulla varius consequat magna</div>
+                    <div class="caption sfb" data-x="30" data-y="375" data-speed="1800" data-start="3000" data-easing="easeOutBack"><a href="index.html" target="_blank" class="button blue small">READ MORE</a></div>
+                </li>
+				<!-- FADE -->
+				<li data-transition="fade" data-slotamount="10"> 										
+                    <img src="images/slides/thumb4.jpg" alt="" />									
+                    <div class="caption lfr" data-x="820" data-y="70" data-speed="1200" data-start="1300" data-easing="easeOutBack"><img src="images/slides/women.png" alt="" /></div>
+                    <div class="caption lfb" data-x="570" data-y="0" data-speed="19000" data-start="3400" data-easing="easeOutBack"><img src="images/slides/para-large.png" alt="" /></div>
+                    <div class="caption lfb" data-x="430" data-y="450" data-speed="12200" data-start="3400" data-easing="easeOutBack"><img src="images/slides/para-small.png" alt="" /></div>
+                    <div class="caption lft very_large_text" data-x="30" data-y="220" data-speed="1800" data-start="2000" data-easing="easeOutExpo">it infra services</div>	
+                    <div class="caption lft very_large_text2" data-x="215" data-y="220" data-speed="1800" data-start="2000" data-easing="easeOutExpo"></div>	
+                    <div class="caption lfl medium_grey" data-x="30" data-y="305" data-speed="300" data-start="2500" data-easing="easeOutExpo">Quisque ultricies vestibulum Graphic t river molestie </div>
+                    <div class="caption lfb small_text" data-x="30" data-y="328" data-speed="1800" data-start="2600" data-easing="easeOutExpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor,<br/> vel interdum mi sapien ut justo.Nulla varius consequat magna</div>
+                    <div class="caption sfb" data-x="30" data-y="375" data-speed="1800" data-start="3400" data-easing="easeOutBack"><a href="index.html" target="_blank" class="button red small">READ MORE</a></div>
+                </li>
+            </ul>		
+            <div class="tp-bannertimer"></div>												
+        </div>					
+	</div>
     <!-- END BANNER -->
-    
-    <!-- BEGIN SERVICES SECTION -->
-    <section class="services-sec gray-bg border" id="services">
-        <div class="container">
-        	<!-- BEGIN TAB 1 -->
-            <div class="tab1" id="tab1">
-                <ul class="row clearfix">
-                <li class="col-md-4 col-sm-4 bounceIn" data-delay="100">
-                    <div class="service-sec">
-                   
-                        <a href="#." ><span class="green"><i class="fa fa-rocket img-circle open"></i></span></a>
-                        <h3>Creative Ideas</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                
-                <li class="col-md-4 col-sm-4 bounceIn" data-delay="200">
-                    <div class="service-sec">
-                        <a href="#."><span class="green"><i class="fa fa-code img-circle open"></i></span></a>
-                        <h3>Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4 bounceIn" data-delay="300">
-                    <div class="service-sec">
-                        <a href="#."><span class="green"><i class="fa fa-clock-o img-circle open"></i></span></a>
-                        <h3>24/7 Support</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-            </div>
-            <!-- /END TAB 1 -->
-            <!-- BEGIN TAB 2 -->
-            <div class="tab2" id="tab2">
-                <ul class="row">
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="yellow"><i class="fa fa-code img-circle open"></i></span></a>
-                        <h3>HTML5 &amp; CSS3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="yellow"><i class="fa fa-camera img-circle open"></i></span></a>
-                        <h3>w3c valid</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="yellow"><i class="fa fa-umbrella img-circle open"></i></span></a>
-                        <h3>Bootstrap 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-            </div>
-            <!-- /END TAB 2 -->
-            <!-- BEGIN TAB 3 -->
-            <div class="tab3" id="tab3">
-                <ul class="row">
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="red"><i class="fa fa-facebook img-circle"></i></span></a>
-                        <h3>Facebook</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="red"><i class="fa fa-twitter img-circle"></i></span></a>
-                        <h3>Twitter</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="red"><i class="fa fa-linkedin img-circle"></i></span></a>
-                        <h3>Linked in</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-            </div>
-            <!-- /END TAB 3 -->
-            <!-- BEGIN TAB 4 -->
-            <div class="tab4" id="tab4">
-                <ul class="row">
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="blue"><i class="fa fa-rocket img-circle"></i></span></a>
-                        <h3>App Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="blue"><i class="fa fa-thumbs-up img-circle"></i></span></a>
-                        <h3>Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="blue"><i class="fa fa-sitemap img-circle"></i></span></a>
-                        <h3>24/7 Support</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-            </div>
-            <!-- /END TAB 4 -->
-            <!-- BEGIN TAB 5 -->
-            <div class="tab5" id="tab5">
-                <ul class="row">
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="purple"><i class="fa fa-camera img-circle"></i></span></a>
-                        <h3>Cloud Hosting</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="purple"><i class="fa fa-glass img-circle"></i></span></a>
-                        <h3>Dedicated Servers</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-                <li class="col-md-4 col-sm-4">
-                    <div class="service-sec">
-                        <a href="#."><span class="purple"><i class="fa fa-puzzle-piece img-circle"></i></span></a>
-                        <h3>24/7 Support 5</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum Graphic river molestie. Suspendisse potenti.</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-            </div>
-            <!-- /END TAB 5 -->
-        </div>
-    <div class="clearfix"></div>
-    </section>
-    <!-- END SERVICES SECTION -->
-
-	<!-- BEGIN EXPERIENCE SECTION -->
-	<section class="no-padding-bottom experience" id="experience">
+	    
+    <!-- BEGIN PORTFOLIO CONTAINER -->
+    <section class="no-padding-bottom experience" id="productsandservices">
     	<div class="container">
         	<!-- BEGIN HEADING -->
-        	<h1 class="text-center red">experience<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
+        	<h2 class="purple text-center">Products And Services<span></h2>Japan has been leading world's mobile content market since late 90s. JM Technology Indonesia leverages Japan's technology and know-how in mobile-oriented IT solutions and contents to contribute to Indonesia and the rest of the world.</span>
+            <!-- END HEADING -->
+        </div>
+
+	       <div  id="filters">
+           		<!-- BEGIN PORTFOLIO NAV -->
+                <ul class="clearfix">
+					<li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>
+                    <li><a href="#" data-filter=".services"><h3>IT Services</h3></a></li>
+                    <li><a href="#" data-filter=".products"><h3>IT Products</h3></a></li>
+                    <li><a href="#" data-filter=".cad"><h3>3D CAD Training Service</h3></a></li>
+                   <!-- <li><a href="#" data-filter=".videography"><h3>Videography</h3></a></li>
+                    <li><a href="#" data-filter=".web"><h3>Web</h3></a></li>-->
+                </ul>
+                <!-- END PORTFOLIO NAV -->
+            </div>
+
+
+           <div id="portfolio-items-wrap" class="fadeInUp">
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item design photography services products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div>
+                    <a href="images/portfolio/portfolio1.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    <img src="images/portfolio/portfolio1.jpg" alt="">
+               </div>
+            </div>
+            <!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item videography web services fadeInUp">
+               <div class="portfolio">
+                  <div class="img-overlay"></div>
+                 	 <a href="images/portfolio/portfolio2.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i>
+                      </a>
+                      <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                      </a>
+                      <img src="images/portfolio/portfolio2.jpg" alt="">
+               </div>
+            </div>
+			<!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item videography branding services design photography services">
+               <div class="portfolio">
+                  <div class="img-overlay"></div>
+                  <a href="images/portfolio/portfolio3.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i>
+                      </a>
+                      <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                      </a>
+                      <img src="images/portfolio/portfolio3.jpg" alt=""> 
+               </div>
+            </div>
+			<!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item branding design services cad fadeInUp">
+               <div class="portfolio">
+                  <div class="img-overlay"></div>
+                     <a href="images/portfolio/portfolio4.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i>
+                      </a>
+                      <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                      </a>
+                      <img src="images/portfolio/portfolio4.jpg" alt="">
+               </div>
+            </div>
+			<!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item services products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio5.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i> </a>
+                      <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                      </a>
+                      <img src="images/portfolio/portfolio5.jpg" alt="">
+               </div>
+            </div>
+			<!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item services products cad fadeInUp">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio6.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                  	  </a>
+                      <img src="images/portfolio/portfolio6.jpg" alt="">
+               </div>
+            </div>
+			<!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item products">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/product/googleapp.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_self">
+                      <i class="fa fa-link"></i>
+                  	  </a>
+                      <img src="images/product/googleapp.jpg" alt="">
+               </div>
+            </div>
+			<!-- END PORTFOLIO -->
+            <!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item services products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio8.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_blank">
+                      <i class="fa fa-link"></i>
+                    </a>
+                      <img src="images/portfolio/portfolio8.jpg" alt="">
+               </div>
+            </div>
+            <!-- END PORTFOLIO -->
+			<!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item services products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio8.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_blank">
+                      <i class="fa fa-link"></i>
+                    </a>
+                      <img src="images/portfolio/portfolio8.jpg" alt="">
+               </div>
+            </div>
+            <!-- END PORTFOLIO -->
+			<!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio8.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_blank">
+                      <i class="fa fa-link"></i>
+                    </a>
+                      <img src="images/portfolio/portfolio8.jpg" alt="">
+               </div>
+            </div>
+            <!-- END PORTFOLIO -->
+			<!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio8.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_blank">
+                      <i class="fa fa-link"></i>
+                    </a>
+                      <img src="images/portfolio/portfolio8.jpg" alt="">
+               </div>
+            </div>
+            <!-- END PORTFOLIO -->
+			<!-- BEGIN PORTFOLIO -->
+            <div class="portfolio-item products cad">
+               <div class="portfolio">
+                  <div class="img-overlay"></div><a href="images/portfolio/portfolio8.jpg" class="portfolio-image fancybox">
+                      <i class="fa fa-search"></i></a>
+                      <a href="http://google.com" target="_blank">
+                      <i class="fa fa-link"></i>
+                    </a>
+                      <img src="images/portfolio/portfolio8.jpg" alt="">
+               </div>
+            </div>
+            <!-- END PORTFOLIO -->
+           </div>
+
+    </section>
+    <!-- END TABLES CONTAINER -->
+    <!-- Start Newsletter Block
+	================================================== -->
+	<section id="newsslider" class="sectionnews">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="Carousel" class="carouselnews slide">
+					       <!-- <ol class="carouselnews-indicators">
+					            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+					            <li data-target="#Carousel" data-slide-to="1" ></li>
+					            <li data-target="#Carousel" data-slide-to="2" ></li>
+					        </ol>-->
+					
+					        <div class="carouselnews-inner">
+					            <div class="item active animate" data-animate="flipInY">
+					                <blockquote>
+					                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					                  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+					                </blockquote>					            </div>
+					           <div class="item animate" data-animate="flipInY">
+					             	<blockquote>
+					             	  <p class="lead">Bootstrap has a few easy ways to quickly get started, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.</p>
+					             	  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+					             	</blockquote>
+					           </div>
+					           <div class="item animate" data-animate="flipInY">
+					           		<blockquote>
+						             	<p class="lead">Bring Bootstrap's components to life with over a dozen custom jQuery plugins. Easily include them all, or one by one.</p>
+						             	<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+					             	</blockquote>
+					            </div>
+					        </div>
+					
+					        <a class="carouselnews-control" href="#Carousel" data-slide="prev">
+					            <span class="glyphicon glyphicon-chevron-left"></span>
+					        </a>
+					        <a class="right carouselnews-control" href="#Carousel" data-slide="next">
+					            <span class="glyphicon glyphicon-chevron-right"></span>
+					        </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ==================================================
+	End Slider Blcok -->
+    
+    <!-- BEGIN TABLES CONTAINER -->
+    <!--<section class="tables" data-stellar-background-ratio="-0.2" id="pricing-tables">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 fadeInUp" data-delay="200">
+                	<!-- BEGIN TABLE -->
+                  <!--  <div class="table yellow-table text-center">
+                        <span class="table-heading">basic</span>
+                        <p class="price"><span class="currency">$</span><span><strong>29</strong>.99</span>/ monthly plan</p>
+                        <ul class="list-unstyled">
+                            <li>Theme Update</li>
+                            <li>Most Wanted</li>
+                            <li>Layerd Photoshop PSD</li>
+                            <li>5 e-mail Account</li>
+                            <li>70MB Monthly Traffic</li>
+                            <li>24/7 Live Support</li>
+                        </ul>
+                        <a class="btn btn-yellow" href="#.">Sign UP</a>
+                    </div>
+                	<!-- END TABLE -->
+             <!--   </div>
+              <!--  <div class="col-md-3 fadeInUp" data-delay="200">
+                	<!-- BEGIN TABLE -->
+                 <!--   <div class="table green-table text-center">
+                        <span class="table-heading">standard</span>
+                        <p class="price"><span class="currency">$</span><span><strong>39</strong>.99</span>/ monthly plan</p>
+                        <ul class="list-unstyled">
+                            <li>Theme Update</li>
+                            <li>Most Wanted</li>
+                            <li>Layerd Photoshop PSD</li>
+                            <li>5 e-mail Account</li>
+                            <li>70MB Monthly Traffic</li>
+                            <li>24/7 Live Support</li>
+                        </ul>
+                        <a class="btn btn-green" href="#.">Sign UP</a>
+                    </div>
+                    <!-- END TABLE -->
+             <!--   </div>
+                <div class="col-md-3 fadeInUp" data-delay="600">
+                	<!-- BEGIN TABLE -->
+          <!--          <div class="table blue-table text-center">
+                        <span class="table-heading">professional</span>
+                        <p class="price"><span class="currency">$</span><span><strong>59</strong>.99</span>/ monthly plan</p>
+                        <ul class="list-unstyled">
+                            <li>Theme Update</li>
+                            <li>Most Wanted</li>
+                            <li>Layerd Photoshop PSD</li>
+                            <li>5 e-mail Account</li>
+                            <li>70MB Monthly Traffic</li>
+                            <li>24/7 Live Support</li>
+                        </ul>
+                        <a class="btn btn-blue" href="#.">Sign UP</a>
+                    </div>
+                    <!-- END TABLE -->
+          <!--      </div>
+                <div class="col-md-3 fadeInUp" data-delay="800">
+                	<!-- BEGIN TABLE -->
+          <!--          <div class="table red-table text-center">
+                        <span class="table-heading">extreme</span>
+                        <p class="price"><span class="currency">$</span><span><strong>79</strong>.99</span>/ monthly plan</p>
+                        <ul class="list-unstyled">
+                            <li>Theme Update</li>
+                            <li>Most Wanted</li>
+                            <li>Layerd Photoshop PSD</li>
+                            <li>5 e-mail Account</li>
+                            <li>70MB Monthly Traffic</li>
+                            <li>24/7 Live Support</li>
+                        </ul>
+                        <a class="btn btn-red" href="#.">Sign UP</a>
+                    </div>
+                    <!-- END TABLE -->
+           <!--     </div>
+            </div>
+        </div>
+            </section>
+	<!-- END TABLES CONTAINER -->
+	 <!-- BEGIN OUR CLIENTS CONTAINER -->
+    <section class="our-clients" data-stellar-background-ratio="-0.2" id = "companyprofile">
+    	<div class="overlay"></div>
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-12">
+                    	<!-- BEGIN HEADING -->
+                    	<h2 class="orange text-center"> Company Profile</h2>
+                        <!-- END HEADING -->
+                        <div id="carousel-example-generic" class="carousel slide flipInY" data-ride="carousel">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner text-center">
+                            <div class="item active">
+                              <!-- BEGIN TESTIMONIALS -->
+                              <div class="testimonial">
+                              <i class="fa fa-quote-left"></i>
+                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+							<i class="fa fa-quote-right"></i>
+                              </div>
+                              <!-- END TESTIMONIALS -->
+                            </div>
+                            <div class="item">
+                              <!-- BEGIN TESTIMONIALS -->
+                              <div class="testimonial">
+                              	<i class="fa fa-quote-left"></i>
+                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+							<i class="fa fa-quote-right"></i>
+                              </div>
+                              <!-- END TESTIMONIALS -->
+                            </div>
+                            <div class="item">
+                              <!-- BEGIN TESTIMONIALS -->
+                              <div class="testimonial">
+                              	<i class="fa fa-quote-left"></i>
+                              	<p><TABLE style="WIDTH: 100%" border=0 cellSpacing=0 cellPadding=0 width="100%" background="">
+
+										<TR>
+										<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" vAlign=top>
+										<TABLE style="BORDER-BOTTOM: #666666 1px dotted" border=0 cellSpacing=0 cellPadding=0 width="100%">
+
+										<TR>
+										<TD height="21"><!--<IMG alt="沿革" src="../library/image/profile/t_history.gif" width="120" height="20">-->History</TD></TR>
+										<TR>
+										<TD></TD></TR></TABLE><BR>
+										<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+
+										<TR>
+										<TD width="10">&nbsp;</TD>
+										<TD colSpan=2>&nbsp;</TD></TR>
+
+
+											<tr>
+												<td
+													class="gray_12"
+													valign="top"
+													width="10">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="120">March
+													1995</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="390">
+													<p>JMNet (which later changed name to JM Technology) was
+													established in
+													Osaka (Japan)<br>
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top"
+													width="10">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="60">July
+													1999</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="390">JMNet's Fukuoka (Japan) office was
+													established<br>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top"
+													width="10">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="60">March
+													2000</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="390">
+													<p>JMNet's Tokyo (Japan)
+													office was
+													established <br>
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top"
+													width="10">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="60">November
+													2001</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="390">
+													<p>JMNet's headquarter
+													was moved from
+													Osaka to
+													Fukuoka (Japan) </p>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top"
+													width="10">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="60">November
+													2004</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top"
+													width="390">JMNet is listed
+													at Fukuoka
+													Stock
+													Exchange's
+													Q-Board (Japan) </td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">March
+													2007</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">
+													<p>JMNet changed
+													name to JM
+													Technology<br>
+													<br>
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">March
+													2009</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">JM Technology's Tokyo office became Tokyo Headquarter (Japan)<br>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">May
+													2010</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">JM Technology's Singapore
+													subsidiary (JM
+													Singapore IT
+													Solutions) was
+													established<br>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">November
+													2011</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">JM Technology joined
+													
+													Mamezou OS
+													Holdings group
+													<br>
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="gray_12"
+													valign="top">&nbsp;</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">March
+													2012</td>
+												<td
+													class="MS10_blk"
+													height="30"
+													valign="top">JM
+													Technology
+													Indonesia
+													started (registered as
+													PT JMT
+													Indonesia)<br>
+												</td>
+											</tr>
+
+
+
+										</TABLE><BR><BR></TD></TR></TABLE></p>
+							<i class="fa fa-quote-right"></i>
+                              </div>
+                              <!-- END TESTIMONIALS -->
+                            </div>
+                            <div class="item">
+                              <!-- BEGIN TESTIMONIALS -->
+                             <div class="testimonial">
+                              	<i class="fa fa-quote-left"></i>
+                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. of Quisque ultricies vestibulum 
+Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
+Graphic Design the power of Suspendisse potenti.</p>
+							<i class="fa fa-quote-right"></i>
+                              </div>
+                              <!-- END TESTIMONIALS -->
+                            </div>
+                          </div>
+                          
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                            	<img src="images/client1.png" alt="" title="" class="img-circle">
+                                <span><b>Company Profile</b></span>
+                            </li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1">
+                            	<img src="images/client2.png" alt="" title="" class="img-circle">
+                                <span><b>Vision</b></span>
+                            </li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2">
+                            	<img src="images/client3.png" alt="" title="" class="img-circle">
+                                <span><b>History</b></span>
+                            </li>
+                           <!--<li data-target="#carousel-example-generic" data-slide-to="3">
+                            	<img src="images/client4.png" alt="" title="" class="img-circle">
+                                <span><b>Organisation Structure</b></span>-->
+                            </li>
+                          </ol>
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+	<!-- END OUR CLIENTS CONTAINER -->
+	
+	<!-- BEGIN EXPERIENCE SECTION -->
+	<section class="no-padding-bottom recruitment" id="recruitment">
+    	<div class="container">
+        	<!-- BEGIN HEADING -->
+        	<h1 class="text-center red">Recruitment<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
             <!-- END HEADING -->
             <div class="row">
                 <div class="col-md-12">
@@ -300,528 +804,20 @@
     </section>
     <!-- END EXPERIENCE SECTION -->
 	
-    <!-- BEGIN PIECHARTS SECTION -->
-	<section class="piecharts no-margin-bottom" id="pie-charts" data-stellar-background-ratio="-0.2">
-   		 <div class="overlay"></div>
-        	<div class="container">
-               <div class="row">
-                   <div class="col col-12">
-                    	<!-- BEGIN HEADING -->
-                        <h2>We have great experience in...</h2>
-                        <p>fringilla suctus. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor. Morbi sagittis, sem quis lacinia faucibus, </p>
-                		<!-- END HEADING -->
-                        
-                        <!-- BEGIN PIECHART -->
-                        <span class="chart blue-circle" data-percent="92" data-delay="100">
-                            <span class="percent"></span>
-                            <span class="skill-name">Photoshop</span>
-                        </span>
-                        <!-- END PIECHART -->
-                        <!-- BEGIN PIECHART -->
-                        <span class="circle green-circle" data-percent="85" data-delay="300">
-                            <span class="percent"></span>
-                            <span class="skill-name">Dreamweaver</span>
-                        </span>
-                        <!-- END PIECHART -->
-                        <!-- BEGIN PIECHART -->
-                        <span class="circle red-circle" data-percent="80" data-delay="500">
-                            <span class="percent"></span>
-                            <span class="skill-name">Business</span>
-                        </span>
-                        <!-- END PIECHART -->
-                        <!-- BEGIN PIECHART -->
-                        <span class="circle yellow-circle" data-percent="75" data-delay="700">
-                            <span class="percent"></span>
-                            <span class="skill-name">Illustration</span>
-                        </span>
-                        <!-- END PIECHART -->
-                        <!-- BEGIN PIECHART -->
-                        <span class="circle purple-circle" data-percent="90" data-delay="900">
-                            <span class="percent"></span>
-                            <span class="skill-name">Design</span>
-                        </span>
-	                    <!-- END PIECHART -->
-                    </div>
-            </div>
-            </div>
-       </section>
-	<!-- END PIECHARTS SECTION -->
-	
-    <!-- BEGIN TRI SECTION CONTAINER -->
-    <section class="tri-secs gray-bg border">
-	    <div class="container">
-        <div class="row">
-            <div class="col-md-6 flipInY" data-delay="100">
-            	<!-- BEGIN TRI SECTION -->
-                <div class="tri-sec text-center">
-                    <i class="fa fa-flask blue"></i>
-                    <h3 class="blue">New Discovery</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.</p>
-                </div>
-                <!-- END TRI SECTION -->
-            </div>
-            <div class="col-md-6 flipInY" data-delay="100">
-            	<!-- BEGIN TRI SECTION -->
-                <div class="tri-sec text-center">
-                    <i class="fa fa-html5 green"></i>
-                        <h3 class="green">Technology</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.</p>
-                </div>
-                <!-- END TRI SECTION -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 flipInY" data-delay="300">
-            	<!-- BEGIN TRI SECTION -->
-                <div class="tri-sec text-center last">
-                    <i class="fa fa-lightbulb-o yellow"></i>
-                        <h3 class="yellow">New Discovery</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.</p>
-                </div>
-                <!-- END TRI SECTION -->
-            </div>
-            <div class="col-md-6 flipInY">
-            	<!-- BEGIN TRI SECTION -->
-                <div class="tri-sec text-center last" data-delay="300">
-                    <i class="fa fa-desktop red"></i>
-                        <h3 class="red">Fully Responsive</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.</p>
-                </div>
-                <!-- END TRI SECTION -->
-            </div>
-        </div>
-    </div>
-    </section>
-    <!-- END TRI SECTION CONTAINER -->
-
-    <!-- BEGIN TEAM CONTAINER -->
-    <section class="team" id="team">
-    	<div class="container text-center">
-        	<!-- BEGIN HEADING -->
-        	<h1 class="yellow">Creative Team<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
-            <!-- END HEADING -->
-            <div class="row">
-                <div class="col-md-4 bounceIn" data-delay="100">
-                	<!-- BEGIN TEAM -->
-                    <div class="team-image-sec">
-                        <div class="img-overlay"></div>
-                        <figure><img title="Image" alt="image" src="images/team1.jpg" ></figure>
-                        <ul>
-                            <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                   </div>
-                    <div class="team-detail-sec">
-                        <h3 class="red">John Smith<span>Creative Director</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum molestie.  Graphic Design the power of Suspendisse potenti.</p>
-                    </div>
-                	<!-- END TEAM -->
-                </div>
-                <div class="col-md-4 bounceIn" data-delay="400">
-                	<!-- BEGIN TEAM -->
-                    <div class="team-image-sec">
-                        <div class="img-overlay"></div>
-                        <figure><img title="Image" alt="image" src="images/team2.jpg"></figure>
-                        <ul>
-                            <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                   </div>
-                    <div class="team-detail-sec">
-                        <h3 class="green">Eric Jonhson<span>Head of Engineering</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum molestie.  Graphic Design the power of Suspendisse potenti.</p>
-                    </div>
-                    <!-- END TEAM -->
-                </div>
-                <div class="col-md-4 bounceIn" data-delay="900">
-                	<!-- BEGIN TEAM -->
-                    <div class="team-image-sec">
-                        <div class="img-overlay"></div>
-                        <figure><img title="Image" alt="image" src="images/team3.jpg"></figure>
-                        <ul>
-                            <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="team-detail-sec">
-                        <h3 class="blue">John Doe<span>Web Designer</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum molestie.  Graphic Design the power of Suspendisse potenti.</p>
-                    </div>
-                    <!-- END TEAM -->
-                </div>
-           </div>
-        </div>
-    </section>
-    <!-- END TEAM CONTAINER -->
-    
-    <!-- BEGIN TABLES CONTAINER -->
-    <section class="tables" data-stellar-background-ratio="-0.2" id="pricing-tables">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 fadeInUp" data-delay="200">
-                	<!-- BEGIN TABLE -->
-                    <div class="table yellow-table text-center">
-                        <span class="table-heading">basic</span>
-                        <p class="price"><span class="currency">$</span><span><strong>29</strong>.99</span>/ monthly plan</p>
-                        <ul class="list-unstyled">
-                            <li>Theme Update</li>
-                            <li>Most Wanted</li>
-                            <li>Layerd Photoshop PSD</li>
-                            <li>5 e-mail Account</li>
-                            <li>70MB Monthly Traffic</li>
-                            <li>24/7 Live Support</li>
-                        </ul>
-                        <a class="btn btn-yellow" href="#.">Sign UP</a>
-                    </div>
-                	<!-- END TABLE -->
-                </div>
-                <div class="col-md-3 fadeInUp" data-delay="200">
-                	<!-- BEGIN TABLE -->
-                    <div class="table green-table text-center">
-                        <span class="table-heading">standard</span>
-                        <p class="price"><span class="currency">$</span><span><strong>39</strong>.99</span>/ monthly plan</p>
-                        <ul class="list-unstyled">
-                            <li>Theme Update</li>
-                            <li>Most Wanted</li>
-                            <li>Layerd Photoshop PSD</li>
-                            <li>5 e-mail Account</li>
-                            <li>70MB Monthly Traffic</li>
-                            <li>24/7 Live Support</li>
-                        </ul>
-                        <a class="btn btn-green" href="#.">Sign UP</a>
-                    </div>
-                    <!-- END TABLE -->
-                </div>
-                <div class="col-md-3 fadeInUp" data-delay="600">
-                	<!-- BEGIN TABLE -->
-                    <div class="table blue-table text-center">
-                        <span class="table-heading">professional</span>
-                        <p class="price"><span class="currency">$</span><span><strong>59</strong>.99</span>/ monthly plan</p>
-                        <ul class="list-unstyled">
-                            <li>Theme Update</li>
-                            <li>Most Wanted</li>
-                            <li>Layerd Photoshop PSD</li>
-                            <li>5 e-mail Account</li>
-                            <li>70MB Monthly Traffic</li>
-                            <li>24/7 Live Support</li>
-                        </ul>
-                        <a class="btn btn-blue" href="#.">Sign UP</a>
-                    </div>
-                    <!-- END TABLE -->
-                </div>
-                <div class="col-md-3 fadeInUp" data-delay="800">
-                	<!-- BEGIN TABLE -->
-                    <div class="table red-table text-center">
-                        <span class="table-heading">extreme</span>
-                        <p class="price"><span class="currency">$</span><span><strong>79</strong>.99</span>/ monthly plan</p>
-                        <ul class="list-unstyled">
-                            <li>Theme Update</li>
-                            <li>Most Wanted</li>
-                            <li>Layerd Photoshop PSD</li>
-                            <li>5 e-mail Account</li>
-                            <li>70MB Monthly Traffic</li>
-                            <li>24/7 Live Support</li>
-                        </ul>
-                        <a class="btn btn-red" href="#.">Sign UP</a>
-                    </div>
-                    <!-- END TABLE -->
-                </div>
-            </div>
-        </div>
-            </section>
-	<!-- END TABLES CONTAINER -->
-	
-    <!-- BEGIN PORTFOLIO CONTAINER -->
-    <section class="portfolio no-padding-bottom" id="portfolio">
-    	<div class="container">
-        	<!-- BEGIN HEADING -->
-        	<h1 class="purple text-center">Portfolio<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
-            <!-- END HEADING -->
-        </div>
-
-	       <div  id="filters">
-           		<!-- BEGIN PORTFOLIO NAV -->
-                <ul class="clearfix">
-                    <li><a href="#" data-filter="*" class="active"><h3>All</h3></a></li>	
-                    <li><a href="#" data-filter=".branding"><h3>Branding</h3></a></li>
-                    <li><a href="#" data-filter=".design"><h3>Design</h3></a></li>
-                    <li><a href="#" data-filter=".photography"><h3>Photography</h3></a></li>
-                    <li><a href="#" data-filter=".videography"><h3>Videography</h3></a></li>
-                    <li><a href="#" data-filter=".web"><h3>Web</h3></a></li>
-                </ul>
-                <!-- END PORTFOLIO NAV -->
-            </div>
-
-
-           <div id="portfolio-items-wrap" class="fadeInUp">
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item design photography videography web branding">
-               <div class="portfolio">
-                  <div class="img-overlay"></div>
-                    <a href="images/portfolio/portfolio1.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i>
-                    </a>
-                    <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <img src="images/portfolio/portfolio1.jpg" alt="">
-               </div>
-            </div>
-            <!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item videography web fadeInUp">
-               <div class="portfolio">
-                  <div class="img-overlay"></div>
-                 	 <a href="images/portfolio/portfolio2.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i>
-                      </a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                      </a>
-                      <img src="images/portfolio/portfolio2.jpg" alt="">
-               </div>
-            </div>
-			<!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item videography branding design photography">
-               <div class="portfolio">
-                  <div class="img-overlay"></div>
-                  <a href="images/portfolio/portfolio3.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i>
-                      </a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                      </a>
-                      <img src="images/portfolio/portfolio3.jpg" alt=""> 
-               </div>
-            </div>
-			<!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item branding design photography web fadeInUp">
-               <div class="portfolio">
-                  <div class="img-overlay"></div>
-                     <a href="images/portfolio/portfolio4.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i>
-                      </a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                      </a>
-                      <img src="images/portfolio/portfolio4.jpg" alt="">
-               </div>
-            </div>
-			<!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item branding design videography photography web">
-               <div class="portfolio">
-                  <div class="img-overlay"></div><a href="images/portfolio/portfolio5.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i> </a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                      </a>
-                      <img src="images/portfolio/portfolio5.jpg" alt="">
-               </div>
-            </div>
-			<!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item branding videography photography web fadeInUp">
-               <div class="portfolio">
-                  <div class="img-overlay"></div><a href="images/portfolio/portfolio6.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i></a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                  	  </a>
-                      <img src="images/portfolio/portfolio6.jpg" alt="">
-               </div>
-            </div>
-			<!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item branding web fadeInUp">
-               <div class="portfolio">
-                  <div class="img-overlay"></div><a href="images/portfolio/portfolio7.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i></a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                  	  </a>
-                      <img src="images/portfolio/portfolio7.jpg" alt="">
-               </div>
-            </div>
-			<!-- END PORTFOLIO -->
-            <!-- BEGIN PORTFOLIO -->
-            <div class="portfolio-item design videography photography web">
-               <div class="portfolio">
-                  <div class="img-overlay"></div><a href="images/portfolio/portfolio8.jpg" class="portfolio-image fancybox">
-                      <i class="fa fa-search"></i></a>
-                      <a href="http://google.com" target="_blank">
-                      <i class="fa fa-link"></i>
-                    </a>
-                      <img src="images/portfolio/portfolio8.jpg" alt="">
-               </div>
-            </div>
-            <!-- END PORTFOLIO -->
-           </div>
-
-    </section>
-    <!-- END TABLES CONTAINER -->
-    
-    <!-- BEGIN BEST SELLER CONTAINER -->
-    <section class="best-sellers" id="best-sellers">
-    	<div class="container">
-            <div class="text-center">
-            	<!-- BEGIN HEADING -->
-                <h1 class="pink">best sellers<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
-                <!-- END HEADING -->
-            </div>
-            <!-- BEGIN PRODUCTS -->
-            <div class="products">
-            	<!-- BEGIN PRODUCT -->
-	            <div class="product green bounceIn" data-delay="100">
-                <div class="product-thumb"><a href="shop-detail.html" data-fancybox-type="iframe" class="various"><span class="overlay"></span><img src="images/best-sellers/shirt1.jpg" alt=""><i class="fa fa-shopping-cart"></i></a>
-                </div>
-                <div class="product-desc">
-                    <h4>Flying Ninja<span class="price">$55</span></h4>
-                    <p>Morbi sagittis sem quis.</p>
-                </div>
-            </div>
-            	<!-- END PRODUCT -->
-                <!-- BEGIN PRODUCT -->
-    	        <div class="product blue bounceIn" data-delay="300">
-                <div class="product-thumb"><a href="shop-detail.html" data-fancybox-type="iframe" class="various"><span class="overlay"></span><img src="images/best-sellers/shirt2.jpg" alt=""><i class="fa fa-shopping-cart"></i></a></div>
-                <div class="product-desc">
-                    <h4>Happy Ninja<span class="price">$29</span></h4>
-                    <p>Morbi sagittis sem quis.</p>
-                </div>
-            </div>
-	            <!-- END PRODUCT -->
-                <!-- BEGIN PRODUCT -->
-        	    <div class="product red bounceIn" data-delay="500">
-                <div class="product-thumb"><a href="shop-detail.html" data-fancybox-type="iframe" class="various"><span class="overlay"></span><img src="images/best-sellers/shirt3.jpg" alt=""><i class="fa fa-shopping-cart"></i></a></div>
-                <div class="product-desc">
-                    <h4>Black T-shirt<span class="price">$12</span></h4>
-                    <p>Morbi sagittis sem quis.</p>
-                </div>
-            </div>
-	            <!-- END PRODUCT -->
-                <!-- BEGIN PRODUCT -->
-            	<div class="product purple bounceIn" data-delay="700">
-            	<label class="sale">Sale</label>
-                <div class="product-thumb"><a href="shop-detail.html" data-fancybox-type="iframe" class="various"><span class="overlay"></span><img src="images/best-sellers/shirt4.jpg" alt=""><i class="fa fa-shopping-cart"></i></a></div>
-                <div class="product-desc">
-                    <h4>Flying Ninja<span class="price">$65</span></h4>
-                    <p>Morbi sagittis sem quis.</p>
-                </div>
-            </div>
-	            <!-- END PRODUCT -->
-            </div>
-            <!-- END PRODUCTS -->
-        </div>
-    </section>
-    <!-- END BEST SELLER CONTAINER -->
-    
-    <!-- BEGIN OUR CLIENTS CONTAINER -->
-    <section class="our-clients" data-stellar-background-ratio="-0.2">
-    	<div class="overlay"></div>
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-md-12">
-                    	<!-- BEGIN HEADING -->
-                    	<h2 class="text-center">Our <b class="blue">Awesome</b> Clients</h2>
-                        <!-- END HEADING -->
-                        <div id="carousel-example-generic" class="carousel slide flipInY" data-ride="carousel">
-
-                          <!-- Wrapper for slides -->
-                          <div class="carousel-inner text-center">
-                            <div class="item active">
-                              <!-- BEGIN TESTIMONIALS -->
-                              <div class="testimonial">
-                              <i class="fa fa-quote-left"></i>
-                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
-Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
-Graphic Design the power of Suspendisse potenti.</p>
-							<i class="fa fa-quote-right"></i>
-                              </div>
-                              <!-- END TESTIMONIALS -->
-                            </div>
-                            <div class="item">
-                              <!-- BEGIN TESTIMONIALS -->
-                              <div class="testimonial">
-                              	<i class="fa fa-quote-left"></i>
-                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
-Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
-Graphic Design the power of Suspendisse potenti.</p>
-							<i class="fa fa-quote-right"></i>
-                              </div>
-                              <!-- END TESTIMONIALS -->
-                            </div>
-                            <div class="item">
-                              <!-- BEGIN TESTIMONIALS -->
-                              <div class="testimonial">
-                              	<i class="fa fa-quote-left"></i>
-                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  of Quisque ultricies vestibulum 
-Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
-Graphic Design the power of Suspendisse potenti.</p>
-							<i class="fa fa-quote-right"></i>
-                              </div>
-                              <!-- END TESTIMONIALS -->
-                            </div>
-                            <div class="item">
-                              <!-- BEGIN TESTIMONIALS -->
-                              <div class="testimonial">
-                              	<i class="fa fa-quote-left"></i>
-                              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. of Quisque ultricies vestibulum 
-Inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo molestie. 
-Graphic Design the power of Suspendisse potenti.</p>
-							<i class="fa fa-quote-right"></i>
-                              </div>
-                              <!-- END TESTIMONIALS -->
-                            </div>
-                          </div>
-                          
-                          <!-- Indicators -->
-                          <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
-                            	<img src="images/client1.png" alt="" title="" class="img-circle">
-                                <span><b>Lance Redgrave</b> CEO/ Founder</span>
-                            </li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1">
-                            	<img src="images/client2.png" alt="" title="" class="img-circle">
-                                <span><b>Mikel Field</b>Creative Director</span>
-                            </li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2">
-                            	<img src="images/client3.png" alt="" title="" class="img-circle">
-                                <span><b>Johny Bravo</b>Creative Director</span>
-                            </li>
-                            <li data-target="#carousel-example-generic" data-slide-to="3">
-                            	<img src="images/client4.png" alt="" title="" class="img-circle">
-                                <span><b>Lance Redgrave</b> CEO/ Founder</span>
-                            </li>
-                          </ol>
-                        
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-	<!-- END OUR CLIENTS CONTAINER -->
-	
     <!-- BEGIN CONTACT US CONTAINER -->
-	<section class="contact-us no-padding-bottom" id="contact-us">
-     	<div class="container">
+	<!-- <section class="contact-us no-padding-bottom" id="contact-us">
+     <!-- 	<div class="container">
         	<!-- BEGIN HEADING -->
-        	<h1 class="orange text-center">Contact us<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
+     <!--    	<h1 class="orange text-center">Contact us<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies vestibulum.</span></h1>
             <!-- END HEADING -->
             
             <!-- BEGIN THANK YOU MESSAGE -->
-            <div id="contact_message" class="success-msg">Thank you for contact us.</div>
+    <!--         <div id="contact_message" class="success-msg">Thank you for contact us.</div>
             <!-- END THANK YOU MESSAGE -->
             
-            <div class="form rollIn">
+        <!--     <div class="form rollIn">
             <!-- BEGIN FORM -->
-            <form id="contact_form" method="post" onSubmit="return false">
+       <!--      <form id="contact_form" method="post" onSubmit="return false">
             <div class="row">
                 <div class="col-md-6">
                     <label>Your Name:</label>
@@ -853,18 +849,18 @@ Graphic Design the power of Suspendisse potenti.</p>
             </div>
             </form>
             <!-- END FORM -->
-            </div>
-        </div>
+         <!--    </div>
+       <!--  </div>-->
         <div class="clearfix"></div>
         <!-- BEGIN MAP -->
-        <div class="map">
+      <!--   <div class="map">
         	<div class="map-title">
             	<h4>view map <span><i class="fa fa-angle-down"></i></span></h4>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.8358376525007!2d144.955431!3d-37.817313999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642c9a8d8495f%3A0xedc33f230d1355b1!2sEnvato+Pty+Ltd!5e0!3m2!1sen!2s!4v1397819044821"></iframe>
         </div>
         <!-- END MAP -->
-     </section>
+   <!--   </section>
     <!-- END CONTACT US CONTAINER -->
      
     <!-- BEGIN FOOTER -->
@@ -880,7 +876,7 @@ Graphic Design the power of Suspendisse potenti.</p>
             </ul>
             <!-- BEGIN SOCIAL -->
             <!-- BEGIN COPYRIGHT -->
-            <p class="copyright">Copyrights 2014, RockoX. All rights reserved. by themes industry.</p>
+            <p class="copyright">Copyrights 2015, JM TECHNOLOGY INDONESIA ALL RIGHTS RESERVED.</p>
             <!-- END COPYRIGHT -->
         </div>
     </footer>        
@@ -889,20 +885,30 @@ Graphic Design the power of Suspendisse potenti.</p>
     <!-- BEGIN GO TO TOP --><a href="#." class="back-to-top" id="back-to-top"><i class="fa fa-angle-up"></i></a><!-- END GO TO TOP -->
     
     </div><!-- end #wrapper -->
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
     <script src="js/jquery.min.js"></script>
-    <!-- parallax -->
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+	    	
+     <!-- jQuery KenBurn Slider  -->	
+	
+    <script src="js/jquery.themepunch.plugins.min.js"></script>			
+    <script src="js/jquery.themepunch.revolution.min.js"></script>			
+					
+	<!-- parallax -->
     <script src="js/jquery.stellar.js"></script>
     <script src="js/custom.js"></script>
-    <!-- jcarousel -->
+    
+     <!-- jcarousel -->
     <script src="js/jquery.jcarousel.min.js"></script>
-    <!-- way point -->
+      <!-- way point -->
     <script src="js/waypoints.js"></script>
-    <!-- Add piecharts -->
+    
+    	<!-- Add piecharts -->
 	<script src="js/jquery.easypiechart.min.js"></script>
     <!-- navigation classes change on scroll -->
 	<script src="js/nimble.js"></script>
+    
     <script src="js/scrollspy.js"></script>
     <!-- fancybox -->
     <script src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
@@ -913,9 +919,11 @@ Graphic Design the power of Suspendisse potenti.</p>
     <script src="js/bootstrap.min.js"></script>
     <!-- nimble effect -->
     
-
+    <script src="js/counters.js"></script>
+     
     <script>
 		//slider
+			
 		jQuery(function() {
 
 			//parallaax
@@ -943,13 +951,13 @@ Graphic Design the power of Suspendisse potenti.</p>
 			
 			//smooth scroll to href value
 			jQuery(".tabs-btn ul li a, .navbar-nav li a, .navbar-brand").click(function(event){
-				 event.preventDefault();
+				 //event.preventDefault();
 				 //calculate destination place
 				 var dest=0;
-				 if($(this.hash).offset().top > $(document).height()-$(window).height()){
-					  dest=$(document).height()-$(window).height();
+				 if(jQuery(this.hash).offset().top > jQuery(document).height()-jQuery(window).height()){
+					  dest=$(document).height()-jQuery(window).height();
 				 }else{
-					  dest=$(this.hash).offset().top;
+					  dest=jQuery(this.hash).offset().top;
 				 }
 				 //go to destination
 				 jQuery('html,body').animate({scrollTop:dest}, 1000,'swing');
@@ -1101,8 +1109,8 @@ Graphic Design the power of Suspendisse potenti.</p>
 								{
 									//alert(msg);
 									if(msg){
-									$('#contact_form').fadeOut(1000);
-									$('#contact_message').fadeIn(2000);
+									jQuery('#contact_form').fadeOut(1000);
+									jQuery('#contact_message').fadeIn(2000);
 									document.getElementById("contact_message").innerHTML = "Your email has been sent.";
 									return true;
 									}
@@ -1113,5 +1121,47 @@ Graphic Design the power of Suspendisse potenti.</p>
 
 		
 	</script>
+    
+ 	<!-- revolution code -->
+    
+    <script type="text/javascript">
+		var tpj=jQuery;
+		tpj.noConflict();
+		
+		tpj(document).ready(function() {
+		
+		if (tpj.fn.cssOriginal!=undefined)
+			tpj.fn.css = tpj.fn.cssOriginal;
+
+			tpj('.fullwidthbanner').revolution(
+				{	
+					delay:9000,												
+					startwidth:1200,
+					startheight:606,
+					
+					onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+					
+					thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+					thumbHeight:50,
+					thumbAmount:4,
+					
+					hideThumbs:200,
+					navigationType:"both",					//bullet, thumb, none, both	 (No Shadow in Fullwidth Version !)
+					navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+					navigationStyle:"round",				//round,square,navbar
+					
+					touchenabled:"on",						// Enable Swipe Function : on/off
+					
+					navOffsetHorizontal:0,
+					navOffsetVertical:20,
+					
+					fullWidth:"on",
+					
+					shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+												
+				});	
+	});
+	</script>
+
   </body>
 </html>
